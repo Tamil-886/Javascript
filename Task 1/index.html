@@ -1,9 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Employee Name Task</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tasks</title>
 </head>
 <body>
-    <script src="task1.js"></script>
+
+    <h2>JavaScript Task Output</h2>
+
+    <script>
+        // =========================
+        // Task 1 - Employee Name
+        // =========================
+        let employeeName = prompt("Enter employee name:");
+        console.log("Employee Name:", employeeName);
+        document.writeln("<h3>Welcome " + employeeName + "</h3>");
+
+        document.writeln("<hr>");
+
+        // =========================
+        // Task 2 - Company Entry Confirmation
+        // =========================
+        let trainingReady = confirm("Are you ready to join today's JavaScript training?");
+        console.log("Training Confirmation:", trainingReady);
+
+        document.writeln("<hr>");
+
+        // =========================
+        // Task 3 - Customer Greeting
+        // =========================
+        alert("Welcome to Stackly Solutions!");
+        console.log("Customer entered the website.");
+
+        document.writeln("<hr>");
+
+        // =========================
+        // Task 4 - Student Details
+        // =========================
+        let studentName = prompt("Enter student name:");
+        let studentAge = prompt("Enter student age:");
+        console.log("Student Name:", studentName);
+        console.log("Student Age:", studentAge);
+
+        document.writeln("<hr>");
+
+        // =========================
+        // Task 5 - Product Price
+        // =========================
+        let productPrice = 500;
+        productPrice = 750;
+        console.log("Updated Product Price:", productPrice);
+
+        document.writeln("<hr>");
+
+        // =========================
+        // Task 6 - Login Validation
+        // =========================
+        let username = prompt("Enter your username:");
+
+        if (username === "" || username === null) {
+            console.warn("Warning: Username is empty.");
+        } else {
+            console.log("Login Successful:", username);
+        }
+
+        document.writeln("<hr>");
+
+        // =========================
+        // Task 7 - Website Maintenance
+        // =========================
+        alert("Website is under maintenance.");
+        console.error("Error: Website is currently unavailable.");
+
+        document.writeln("<hr>");
+
+        // =========================
+        // Task 8 - Feedback Collection
+        // =========================
+        let feedback = prompt("How was today's JavaScript session?");
+        console.log("Feedback:", feedback);
+        document.writeln("<p>Thank you for your feedback!</p>");
+
+        document.writeln("<hr>");
+
+        // =========================
+        // Task 9 - Profile Information
+        // =========================
+        let profileName = prompt("Enter your name:");
+        let city = prompt("Enter your city:");
+        let favLanguage = prompt("Enter your favorite programming language:");
+
+        console.log("Profile Name:", profileName);
+        console.log("City:", city);
+        console.log("Favorite Programming Language:", favLanguage);
+
+        document.writeln("<hr>");
+
+        // =========================
+        // Task 10 - Mini Registration Form
+        // =========================
+        let fullName = prompt("Enter your full name:");
+        let email = prompt("Enter your email:");
+        let mobile = prompt("Enter your mobile number:");
+
+        console.log("===== Registration Details =====");
+        console.log("Name   :", fullName);
+        console.log("Email  :", email);
+        console.log("Mobile :", mobile);
+
+        alert("Registration Successful!");
+    </script>
+
 </body>
 </html>
